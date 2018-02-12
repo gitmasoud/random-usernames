@@ -1,0 +1,26 @@
+{
+  "name": "randomusernames",
+  "version": "1.0.0",
+  "description": "Get a random username which can be used for any type of application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitmasoud/random-usernames.git"
+  },
+  "keywords": [
+    "random",
+    "usernames"
+  ],
+  "author": "'SAMasoud' <'shuaibam1@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitmasoud/random-usernames/issues"
+  },
+  "homepage": "https://github.com/gitmasoud/random-usernames#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
