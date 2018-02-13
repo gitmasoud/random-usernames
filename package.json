@@ -1,6 +1,6 @@
 {
   "name": "randomusernames",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get a random username which can be used for any type of application",
   "main": "src/index.js",
   "scripts": {
@@ -24,3 +24,8 @@
     "unique-random-array": "1.0.0"
   }
 }
+
+//1st number is a major change and API or core functionality will change
+//2nd number means is minor release like new features but API stays the same so no breaking changes i.e. new
+//data in JSON
+//3rd number means patch release such as bugs
