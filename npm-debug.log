@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Shuaib.Masoud\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '--tags',
+1 verbose cli   'beta' ]
+2 info using npm@3.10.10
+3 info using node@v6.12.2
+4 verbose publish [ 'beta' ]
+5 silly cache add args [ 'beta', null ]
+6 verbose cache add spec beta
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: 'beta',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: 'beta',
+7 silly cache add   name: 'beta',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: 'latest',
+7 silly cache add   type: 'tag' }
+8 silly addNamed beta@latest
+9 verbose addNamed "latest" is being treated as a dist-tag for beta
+10 info addNameTag [ 'beta', 'latest' ]
+11 silly mapToRegistry name beta
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'beta',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'beta',
+14 silly mapToRegistry   name: 'beta',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/beta
+16 verbose addNameTag registry:https://registry.npmjs.org/beta not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/beta
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 10:37:00 AM
+20 verbose request using bearer token for auth
+21 verbose request id 2e16caed7252c278
+22 http request GET https://registry.npmjs.org/beta
+23 http 200 https://registry.npmjs.org/beta
+24 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+24 verbose headers   server: 'UploadServer',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'last-modified': 'Fri, 4 Apr 2014 10:13:08 GMT',
+24 verbose headers   etag: '"533e85b4-920"',
+24 verbose headers   'x-npm-region': 'EU-West',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'content-length': '878',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Tue, 13 Feb 2018 10:37:01 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-lcy19221-LCY',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1518518221.973443,VS0,VE183',
+24 verbose headers   vary: 'Accept-Encoding, Accept' }
+25 silly get cb [ 200,
+25 silly get   { 'content-type': 'application/json; charset=UTF-8',
+25 silly get     server: 'UploadServer',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'last-modified': 'Fri, 4 Apr 2014 10:13:08 GMT',
+25 silly get     etag: '"533e85b4-920"',
+25 silly get     'x-npm-region': 'EU-West',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'content-length': '878',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Tue, 13 Feb 2018 10:37:01 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-lcy19221-LCY',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1518518221.973443,VS0,VE183',
+25 silly get     vary: 'Accept-Encoding, Accept' } ]
+26 verbose get saving beta to C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache\registry.npmjs.org\beta\.cache.json
+27 verbose correctMkdir C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly addNameTag next cb for beta with tag latest
+29 silly addNamed beta@0.0.1
+30 verbose addNamed "0.0.1" is a plain semver version for beta
+31 silly mapToRegistry name beta
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'beta',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   escapedName: 'beta',
+34 silly mapToRegistry   name: 'beta',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/beta
+36 verbose addRemoteTarball https://registry.npmjs.org/beta/-/beta-0.0.1.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/beta/-/beta-0.0.1.tgz',
+37 verbose addRemoteTarball   '954d2269ad1242fc5b29f0eed84475f62707536a' ]
+38 info retry fetch attempt 1 at 10:37:01 AM
+39 info attempt registry request try #1 at 10:37:01 AM
+40 http fetch GET https://registry.npmjs.org/beta/-/beta-0.0.1.tgz
+41 verbose request using bearer token for auth
+42 http fetch 200 https://registry.npmjs.org/beta/-/beta-0.0.1.tgz
+43 silly fetchAndShaCheck shasum 954d2269ad1242fc5b29f0eed84475f62707536a
+44 verbose addTmpTarball C:\Users\SHUAIB~1.MAS\AppData\Local\Temp\npm-9716-1b21eb1f\registry.npmjs.org\beta\-\beta-0.0.1.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for beta@0.0.1
+46 verbose correctMkdir C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+47 silly cache afterAdd beta@0.0.1
+48 verbose afterAdd C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache\beta\0.0.1\package\package.json not in flight; writing
+49 verbose correctMkdir C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+50 verbose afterAdd C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache\beta\0.0.1\package\package.json written
+51 silly publish { author:
+51 silly publish    { name: 'Troy Goode',
+51 silly publish      email: 'troygoode@gmail.com',
+51 silly publish      url: 'https://github.com/troygoode/' },
+51 silly publish   name: 'beta',
+51 silly publish   version: '0.0.1',
+51 silly publish   description: 'node.js package for checking beta flags',
+51 silly publish   keywords: [ 'beta', 'flags' ],
+51 silly publish   homepage: 'https://github.com/troygoode/node-beta/',
+51 silly publish   repository: { type: 'git', url: 'git://github.com/troygoode/node-beta.git' },
+51 silly publish   contributors:
+51 silly publish    [ { name: 'Troy Goode',
+51 silly publish        email: 'troygoode@gmail.com',
+51 silly publish        url: 'https://github.com/troygoode/' } ],
+51 silly publish   licenses:
+51 silly publish    [ { type: 'MIT',
+51 silly publish        url: 'http://www.opensource.org/licenses/mit-license.php' } ],
+51 silly publish   bugs: { url: 'https://github.com/troygoode/node-beta/issues' },
+51 silly publish   main: './lib/index.js',
+51 silly publish   directories: { lib: './lib' },
+51 silly publish   engines: { node: '>=0.4.0' },
+51 silly publish   dependencies: {},
+51 silly publish   devDependencies: { mocha: '*', should: '*' },
+51 silly publish   scripts: {},
+51 silly publish   _id: 'beta@0.0.1',
+51 silly publish   dist:
+51 silly publish    { shasum: '954d2269ad1242fc5b29f0eed84475f62707536a',
+51 silly publish      tarball: 'https://registry.npmjs.org/beta/-/beta-0.0.1.tgz' },
+51 silly publish   maintainers: [ { name: 'troygoode', email: 'troygoode@gmail.com' } ],
+51 silly publish   _shasum: '954d2269ad1242fc5b29f0eed84475f62707536a',
+51 silly publish   _resolved: 'https://registry.npmjs.org/beta/-/beta-0.0.1.tgz',
+51 silly publish   _from: 'beta@latest' }
+52 info lifecycle beta@0.0.1~prepublish: beta@0.0.1
+53 silly lifecycle beta@0.0.1~prepublish: no script for prepublish, continuing
+54 verbose getPublishConfig undefined
+55 silly mapToRegistry name beta
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'beta',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'beta',
+58 silly mapToRegistry   name: 'beta',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/beta
+60 verbose publish registryBase https://registry.npmjs.org/
+61 silly publish uploading C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache\beta\0.0.1\package.tgz
+62 verbose request uri https://registry.npmjs.org/beta
+63 verbose request sending authorization for write operation
+64 info attempt registry request try #1 at 10:37:01 AM
+65 verbose request using bearer token for auth
+66 http request PUT https://registry.npmjs.org/beta
+67 http 403 https://registry.npmjs.org/beta
+68 verbose headers { 'content-type': 'application/json',
+68 verbose headers   'cache-control': 'max-age=300',
+68 verbose headers   'content-length': '98',
+68 verbose headers   'accept-ranges': 'bytes',
+68 verbose headers   date: 'Tue, 13 Feb 2018 10:37:02 GMT',
+68 verbose headers   via: '1.1 varnish',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'x-served-by': 'cache-lcy19221-LCY',
+68 verbose headers   'x-cache': 'MISS',
+68 verbose headers   'x-cache-hits': '0',
+68 verbose headers   'x-timer': 'S1518518221.477468,VS0,VE605',
+68 verbose headers   vary: 'Accept-Encoding, Accept' }
+69 verbose request invalidating C:\Users\Shuaib.Masoud\AppData\Roaming\npm-cache\registry.npmjs.org\beta on PUT
+70 error publish Failed PUT 403
+71 verbose stack Error: You do not have permission to publish "beta". Are you logged in as the correct user? : beta
+71 verbose stack     at makeError (C:\Users\Shuaib.Masoud\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+71 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\Shuaib.Masoud\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+71 verbose stack     at Request._callback (C:\Users\Shuaib.Masoud\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+71 verbose stack     at Request.self.callback (C:\Users\Shuaib.Masoud\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+71 verbose stack     at emitTwo (events.js:106:13)
+71 verbose stack     at Request.emit (events.js:191:7)
+71 verbose stack     at Request.<anonymous> (C:\Users\Shuaib.Masoud\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+71 verbose stack     at emitOne (events.js:96:13)
+71 verbose stack     at Request.emit (events.js:188:7)
+71 verbose stack     at IncomingMessage.<anonymous> (C:\Users\Shuaib.Masoud\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+72 verbose statusCode 403
+73 verbose pkgid beta
+74 verbose cwd C:\Users\Shuaib.Masoud\React Projects\ComponentsLibrary\Module\RandomUsernames
+75 error Windows_NT 10.0.10586
+76 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Shuaib.Masoud\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tags" "beta"
+77 error node v6.12.2
+78 error npm  v3.10.10
+79 error code E403
+80 error You do not have permission to publish "beta". Are you logged in as the correct user? : beta
+81 error If you need help, you may report this error at:
+81 error     <https://github.com/npm/npm/issues>
+82 verbose exit [ 1, true ]
