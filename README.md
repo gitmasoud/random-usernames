@@ -16,11 +16,15 @@ Then in your application import the module:
 
 `import RandomNames from 'randomusernames';`
 
+Then you can easily add it to your View:
+
 `{Object.keys(RandomNames.all).map((item, i) => {`
              `console.log(RandomNames.all[item]);`
            `return <li key={item}>{RandomNames.all[item]}</li>`
  `})}`
         
+The whole file
+
 You can also use the one liner:
  `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
 
