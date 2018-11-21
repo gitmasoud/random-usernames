@@ -12,7 +12,9 @@ To use it's quite simple, simply install:
 ###### npm i randomusernames
 
 Then in your application import the module:
+
 //ES6 import
+
 import RandomNames from 'randomusernames';
 
 `{Object.keys(RandomNames.all).map((item, i) => {
@@ -24,7 +26,8 @@ You can also use the one liner:
  `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
 
 # Example Projects
-here is one that uses the Random User names and includes a dynamic generator to select a name at random.
+Here is one that uses the Random User names and includes a dynamic generator to select a name at random:
+DesignloveSoftware.firebaseapp.com/randomusernames
 
 # Principles
 No animation dependencies
