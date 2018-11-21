@@ -14,9 +14,9 @@ To use it's quite simple, simply install:
 Then in your application import the module:
 
 
-import RandomNames from 'randomusernames';
+`import RandomNames from 'randomusernames';
 
-`{Object.keys(RandomNames.all).map((item, i) => {
+{Object.keys(RandomNames.all).map((item, i) => {
              console.log(RandomNames.all[item]);
             return <li key={item}>{RandomNames.all[item]}</li>
  })}`
