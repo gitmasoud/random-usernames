@@ -6,6 +6,8 @@ Random Username Generator for your applications!
 
 This project was born out of the need of requiring random usernames for any new prototpe app that I was developing. 
 
+# Installation & Usage
+
 To use it's quite simple, simply install:
 ###### npm i randomusernames
 
@@ -20,12 +22,6 @@ import RandomNames from 'randomusernames';
         
 You can also use the one liner:
  `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
-
-# Installation & Usage
-
-| Element | Description | Type | Required | Notes |
-| --- | --- | --- | --- | --- |
-| Id | Location Id | int32 | Required | single number |
 
 # Example Projects
 here is one that uses the Random User names and includes a dynamic generator to select a name at random.
