@@ -13,7 +13,6 @@ To use it's quite simple, simply install:
 
 Then in your application import the module:
 
-//ES6 import
 
 import RandomNames from 'randomusernames';
 
