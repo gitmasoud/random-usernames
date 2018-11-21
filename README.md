@@ -63,15 +63,10 @@ Here is one that uses the Random User names and includes a dynamic generator to 
 DesignloveSoftware.firebaseapp.com/randomusernames
 
 # Principles
-No animation dependencies
-Simple declarative component APIs vs brittle HTML markup
-Complete keyboard support
-Complete SUI component definition support
-Completely documented
-Completely tested
-Accessible
+Start Open Source!
+Easy to use random name generator
 
 # Credit
-Created by @levithomason and an amazing community of contributors.
+Created by @Kent C Dodds for tutorial on Egghead. https://www.npmjs.com/package/unique-random-array by https://www.npmjs.com/~sindresorhus
 
-Made possible only by @jlukic authoring Semantic UI.
+
