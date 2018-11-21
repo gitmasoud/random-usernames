@@ -36,7 +36,7 @@ The whole component can look similar to this:
         `}`
         `Render(){`
             `Return (`
-               `<div className="App">
+               `<div className="App">`
                         `{Object.keys(RandomNames.all).map((item, i) => {`
                          `console.log(RandomNames.all[item]);`
                          `return <li key={item}>{RandomNames.all[item]}</li>`
