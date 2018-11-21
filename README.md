@@ -22,11 +22,36 @@ Then you can easily add it to your View:
              `console.log(RandomNames.all[item]);`
            `return <li key={item}>{RandomNames.all[item]}</li>`
  `})}`
-        
-The whole file
-
-You can also use the one liner:
+ 
+ You can also use the one liner:
  `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
+        
+The whole component can look similar to this:
+`import RandomNames from 'randomusernames';`
+`export default RandomUsernames extends React.Component`
+`{` 
+    `constructor(props){`
+        `super(props)`
+            `this.state = {RUsernames = RandomNames}`
+        `}`
+        `Render(){`
+            `Return (`
+               `<div className="App">
+                        `{Object.keys(RandomNames.all).map((item, i) => {`
+                         `console.log(RandomNames.all[item]);`
+                         `return <li key={item}>{RandomNames.all[item]}</li>`
+    
+                          `})}`
+ 
+                           `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
+            `)`
+        `}`
+`}`
+
+
+
+
+
 
 # Example Projects
 Here is one that uses the Random User names and includes a dynamic generator to select a name at random:
