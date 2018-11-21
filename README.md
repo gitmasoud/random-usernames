@@ -54,7 +54,7 @@ The whole component can look similar to this:
                            { Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }    
             )
         }
-}`
+    }`
 
 
 
