@@ -31,9 +31,8 @@ The whole component can look similar to this:
 
 `import RandomNames from 'randomusernames';
 export default RandomUsernames extends React.Component
-{constructor(props){`
-
-        `super(props)`
+{constructor(props){
+        super(props)
         
             `this.state = {RUsernames = RandomNames}`
             
