@@ -34,27 +34,27 @@ export default RandomUsernames extends React.Component
 {constructor(props){
         super(props)
         
-            `this.state = {RUsernames = RandomNames}`
+            this.state = {RUsernames = RandomNames}`
             
-        `}`
+        }
         
-        `Render(){`
+        Render(){
         
-            `Return (`
+           Return (
             
-               `<div className="App">`
+               <div className="App">
                
-                        `{Object.keys(RandomNames.all).map((item, i) => {`
+                        {Object.keys(RandomNames.all).map((item, i) => {
                         
-                         `console.log(RandomNames.all[item]);`
+                         console.log(RandomNames.all[item]);
                          
-                         `return <li key={item}>{RandomNames.all[item]}</li>`
+                         return <li key={item}>{RandomNames.all[item]}</li>
                         
-                          `})}`
-                           `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`     
-            `)`
-        `}`
-`}`
+                          })}
+                           { Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }    
+            )
+        }
+}`
 
 
 
