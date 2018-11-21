@@ -29,21 +29,34 @@ Then you can easily add it to your View:
 The whole component can look similar to this:
 
 `import RandomNames from 'randomusernames';`
+
 `export default RandomUsernames extends React.Component`
+
 `{constructor(props){`
+
         `super(props)`
+        
             `this.state = {RUsernames = RandomNames}`
+            
         `}`
+        
         `Render(){`
+        
             `Return (`
+            
                `<div className="App">`
+               
                         `{Object.keys(RandomNames.all).map((item, i) => {`
+                        
                          `console.log(RandomNames.all[item]);`
+                         
                          `return <li key={item}>{RandomNames.all[item]}</li>`
+                         
     
                           `})}`
  
                            `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
+                           
             `)`
         `}`
 `}`
