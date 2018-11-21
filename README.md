@@ -24,12 +24,13 @@ Then you can easily add it to your View:
  `})}`
  
  You can also use the one liner:
+ 
  `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
         
 The whole component can look similar to this:
 
 `import RandomNames from 'randomusernames';
-export default RandomUsernames extends React.Component`
+export default RandomUsernames extends React.Component
 {constructor(props){`
 
         `super(props)`
@@ -49,18 +50,12 @@ export default RandomUsernames extends React.Component`
                          `console.log(RandomNames.all[item]);`
                          
                          `return <li key={item}>{RandomNames.all[item]}</li>`
-                         
-    
+                        
                           `})}`
- 
-                           `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
-                           
+                           `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`     
             `)`
         `}`
 `}`
-
-
-
 
 
 
