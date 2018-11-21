@@ -29,9 +29,9 @@ Then you can easily add it to your View:
         
 The whole component can look similar to this:
 
-`import RandomNames from 'randomusernames';
-export default RandomUsernames extends React.Component
-{constructor(props){
+    `import RandomNames from 'randomusernames';
+     export default RandomUsernames extends React.Component
+     {constructor(props){
         super(props)
         
             this.state = {RUsernames = RandomNames}`
