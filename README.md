@@ -13,14 +13,13 @@ Then in your application import the module:
 //ES6 import
 import RandomNames from 'randomusernames';
 
- ` {Object.keys(RandomNames.all).map((item, i) => {
+`{Object.keys(RandomNames.all).map((item, i) => {
              console.log(RandomNames.all[item]);
             return <li key={item}>{RandomNames.all[item]}</li>
-    })}`
+ })}`
         
 You can also use the one liner:
- `
- { Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }
+ `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
 
 # Installation & Usage
 
@@ -30,9 +29,6 @@ You can also use the one liner:
 
 # Example Projects
 here is one that uses the Random User names and includes a dynamic generator to select a name at random.
-
-# Help Wanted Label
-Any other issue labeled help wanted is ready for a PR.
 
 # Principles
 No animation dependencies
