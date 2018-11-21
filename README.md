@@ -27,10 +27,10 @@ Then you can easily add it to your View:
  `{ Object.keys(RandomNames.all).map((rn) => <li key={rn}>{RandomNames.all[rn]} </li>) }`
         
 The whole component can look similar to this:
+
 `import RandomNames from 'randomusernames';`
 `export default RandomUsernames extends React.Component`
-`{` 
-    `constructor(props){`
+`{constructor(props){`
         `super(props)`
             `this.state = {RUsernames = RandomNames}`
         `}`
